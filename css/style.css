@@ -497,6 +497,7 @@ body {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    line-height: 1.5; 
 }
 .subscribe-email::placeholder {
     color: var(--white-background-color);
