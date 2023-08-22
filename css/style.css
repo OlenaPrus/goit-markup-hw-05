@@ -465,7 +465,7 @@ body {
 .social-icon .socials-link-footer:focus {
     background-color: var(--socials-footer-hover);
 }
-.subscribe-footer {
+.footer-form {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -474,13 +474,14 @@ body {
 }
 .subscribe-p {
     color: var(--white-background-color);
-    font-family: Roboto;
+    font-weight: 500; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
 .footer-form {
+
 }
 .subscribe-email {
     width: 264px;
@@ -502,8 +503,9 @@ body {
     
 }
 .subscribe-btn {
-    width: 165px;
+    
     height: 40px;
+    min-width: 165px;
     color: var(--white-background-color);
     font-size: 16px;
     font-weight: 500;
