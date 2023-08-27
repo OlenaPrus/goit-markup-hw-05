@@ -472,6 +472,9 @@ body {
     justify-content: space-between;
     
 }
+.subscribe {
+    margin-left: 80px;
+}
 .subscribe-p {
     color: var(--white-background-color);
     font-weight: 500; 
@@ -501,9 +504,11 @@ body {
 }
 .subscribe-email::placeholder {
     color: var(--white-background-color);
-    
 }
 .subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     border: none;
     height: 40px;
@@ -515,15 +520,13 @@ body {
     letter-spacing: 0.04em;
     border-radius: 4px;
     background-color: var(--hover-focus-color);
-    display: inline-flex;
-    gap: 16px;
+    /*gap: 16px;*/
     margin-left: 24px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 8px 24px;
+    text-align: center;     
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+}
+.footer-subscribe {
+    padding: 8px 24px;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
@@ -556,6 +559,9 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -602,6 +608,112 @@ body {
     border: none;
     fill: var(--white-background-color);
 
+}
+.leave-contacts {
+    display: block;
+    width: 360px;
+    color: var(--title-text-color);
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+
+.modal-form {
+}
+.modal-form-container {
+}
+.user-form {
+}
+.modal-form-label {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--customers-icon);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04px;
+}
+.modal-form-field {
+    margin-bottom: 8px;
+    position: relative;
+}
+.modal-form-input {
+    border-radius: 4px;
+    border: 1px solid var(--title-text-color); 
+    padding: 8px 16px;
+    padding-left: 38px;
+    width: 100%;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.modal-form-input:focus {
+    border-color: var(--hover-focus-color);
+}
+.modal-icon-form {
+    
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateX(16px) translateY(-50%);
+    fill: var(--title-text-color);
+    pointer-events: none; /*іконка теж додається до поля інпуту*/
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus + .modal-icon-form {
+    fill: var(--hover-focus-color);
+}
+.modal-form-comment {
+    
+
+}
+.comment {
+    width: 100%;
+    height: 120px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid var(--title-text-color);
+    margin-bottom: 16px;
+    outline: transparent;
+}
+.comment:focus {
+    border-color: var(--hover-focus-color);
+}
+
+.comment::placeholder {
+    /*color: var(--title-text-color);*/
+    color: rgba(46, 47, 66, 0.40);
+
+
+}
+.modal-form-agreement {
+    font-size: 12px;
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
+    color: var(--customers-icon);
+}
+.visually-hidden {
+}
+.checkbox {
+}
+.modal-form-desc {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+}
+.modal-privacy-police {
+    
+    /*font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+    }*/
+.modal-form-btn {
+}
+.btn {
 }
 /*Portfolio*/
 .portfolio {
