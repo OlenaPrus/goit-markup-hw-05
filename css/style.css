@@ -728,8 +728,8 @@ body {
 .checkbox:checked + .modal-form-agreement>.agreement-checkbox {
     background-color: var(--button-hover-focus-color);
     border: none;
-    fill: var(--team-bg-color:);
-    color: var(--white-background-color);
+    fill: var(--team-bg-color);
+    
    
 }
 .modal-privacy-police {
