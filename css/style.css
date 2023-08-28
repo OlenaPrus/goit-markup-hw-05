@@ -696,6 +696,9 @@ body {
 
 
 }
+.agreement {
+    margin-bottom: 24px;
+}
 .modal-form-agreement {
     font-size: 12px;
     line-height: 1.17; 
